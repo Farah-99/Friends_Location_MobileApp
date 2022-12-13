@@ -18,6 +18,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.loader.content.AsyncTaskLoader;
 
 import com.example.friendslocation.JSONParser;
+import com.example.friendslocation.MainActivity;
 import com.example.friendslocation.MyLocation;
 import com.example.friendslocation.R;
 import com.example.friendslocation.databinding.FragmentHomeBinding;
@@ -43,12 +44,12 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
         ad = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, data);
         binding.lvLocations.setAdapter(ad);
-        binding.btndownload.setOnClickListener(v -> {
+        /*binding.btndownload.setOnClickListener(v -> {
             Telechargement t = new Telechargement(getActivity());
             t.execute();
 
 
-        });
+        });*/
 
 
 
@@ -81,7 +82,7 @@ public class HomeFragment extends Fragment {
 
         @Override
         protected Object doInBackground(Object[] objects) {
-            String ip = "192.168.43.168";
+            String ip = "192.168.100.175";
             String url = "http://"+ ip+ "/servicephp/getAll.php";
             JSONParser parser = new JSONParser();
             JSONObject response =parser.makeHttpRequest(url,"GET", null);
@@ -105,11 +106,14 @@ public class HomeFragment extends Fragment {
                 e.printStackTrace();
             }
 
+
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
+
             return null;
         }
 

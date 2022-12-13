@@ -3,13 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/drawable/bg_round.xml" value="0.2703125" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2140625" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.19375" />
         <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/activity_main.xml" value="0.19021739130434784" />
-        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/app_bar_main.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/activity_maps.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/activity_search.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/activity_search_map.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/activity_tracking.xml" value="0.264" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/app_bar_main.xml" value="0.2" />
         <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/content_main.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/element.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/fragment_gallery.xml" value="0.19021739130434784" />
-        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/fragment_home.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/fragment_slideshow.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/layout/nav_header_main.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/menu/activity_main_drawer.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/msi/AndroidStudioProjects/FriendsLocation/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

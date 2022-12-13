@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
     android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
@@ -11,18 +12,49 @@
         android:id="@+id/tv_home_pos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Liste Position"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/tracking_app"
         android:textAlignment="center"
         android:textColor="#B259D8"
         android:textSize="34sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btndownload"
-        android:layout_width="match_parent"
+        android:id="@+id/btnmap"
+        android:layout_width="245dp"
         android:layout_height="wrap_content"
-        android:text="Download"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Track me"
         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btntrack1"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:onClick="buttonGetLocation"
+        android:text="List"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="search"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_loc"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp" />
 
     <ListView
         android:id="@+id/lvLocations"
